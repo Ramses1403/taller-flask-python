@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilos Menú Principal */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-menu {
+    background-color: #007bff;
+    color: white;
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 25px 60px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-menu:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos Tarjetas de Formularios */
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-enviar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustes específicos Ejercicio 2 */
+.form-centrado {
+    text-align: center;
+}
+
+.resultado {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.resultado-centrado {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
